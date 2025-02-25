@@ -30,9 +30,9 @@ const CircularStatsText = styled(Typography)(() => ({
     transform: "translate(-50%, -50%)",
 }));
 
-const ips = [4.00, 2.90, 3.50, 3.80, 4.00];
-const ylabels = [2.00, 3.00, 4.00];
-const xlabels = ["2019", "2020", "2021", "2022", "2023"];
+// const ips = [4.00, 2.90, 3.50, 3.80, 4.00];
+// const ylabels = [2.00, 3.00, 4.00];
+// const xlabels = ["2019", "2020", "2021", "2022", "2023"];
 
 export default function Page() {
     return (
@@ -120,7 +120,7 @@ export default function Page() {
                                 </CircularStatsWrapper>
                                 <Box>
                                     <Typography color="text.disabled">Peringkat</Typography>
-                                    <Typography variant="body2" color="text.disabled">dari kelas Informatika '23</Typography>
+                                    <Typography variant="body2" color="text.disabled">dari kelas Informatika `&apos;`23</Typography>
                                 </Box>
                             </CardContent>
                         </Card>

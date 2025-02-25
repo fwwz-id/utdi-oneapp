@@ -1,6 +1,9 @@
 "use client";
 
-import { styled, useTheme, Theme, CSSObject } from '@mui/material/styles';
+import {
+  styled, //useTheme, 
+  Theme, CSSObject
+} from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import MuiDrawer from '@mui/material/Drawer';
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';
@@ -16,7 +19,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+// import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 
@@ -108,7 +111,7 @@ const AppBar = styled(MuiAppBar, {
 
 export default function Dashboard() {
 
-  const theme = useTheme();
+  // const theme = useTheme();
   const { isOpen, setIsOpen } = useDashboard();
 
   return (
